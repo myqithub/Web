@@ -1,0 +1,325 @@
+.navbar{
+  position: fixed;
+  z-index: 2;
+  top: -5px;
+  width: 100%;
+}
+
+.download{
+  position: relative;
+  height: 50px;
+  width: 200px;
+  padding-left:10px; 
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border-bottom-left-radius: 10px;
+}
+.downloadbutton{
+  position: relative;
+  float: right;
+  top: -45px;
+}
+.text{
+  position: relative;
+  margin-left: 50px;
+  margin-top: -45px;
+}
+.appstore{
+  font-size: 25px;
+  padding-left: 50px;
+  margin-top: -10px;
+}
+.downloadbutton :hover{
+  color: rgb(7, 61, 160);
+}
+
+.icon{
+  position: relative;
+  color: white;
+}
+
+.look{
+  width: 50%;
+  position: relative;
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(121, 161, 10);
+}
+
+
+.firstpage{
+  position: relative;
+  width: 100%;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.397);
+}
+.iphone1{
+  position: relative;
+  max-width: 100%;
+}
+.second{
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin-top: 100px;
+  background-color: rgb(3, 65, 80);
+}
+.secondparagraph{
+  position: relative;
+  text-align: center;
+  line-height: 30%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0 auto;
+  padding: 50px;
+  color: white;
+  
+}
+
+
+
+
+.mva{
+  position: relative;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 50px;
+  color: rgb(121, 161, 10);
+}
+.iphone2{
+  position: relative;
+  margin-top: 100px;
+  max-width: 25%;
+  left: -5%;
+  -webkit-transform: rotate(-10deg);
+}
+.iphone3{
+  position: relative;
+  margin-top: 100px;
+  max-width: 25%;
+  -webkit-transform: rotate(-10deg);
+}
+.iphone4{
+  position: relative;
+  margin-top: 100px;
+  max-width: 25%;
+  right: -5%;
+  -webkit-transform: rotate(-10deg);
+}
+.paragraph{
+  position: relative;
+  text-align: center;
+  top: 50px;
+  font-size:150%;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.howcan{
+  position: relative;
+  text-align: center;
+  font-size: 300%;
+  color: rgb(121, 161, 10);
+  font-family: Arial, Helvetica, sans-serif;
+  top: 100px;
+}
+
+
+
+#comming{
+  max-width: 80%;
+  max-height:600px;
+}
+#slider{
+    position: relative;
+  top: 150px;
+ }
+
+ @media screen and (max-width: 910px) {
+  #comming{
+      max-width: 100%;
+      max-height:600px;
+    }
+
+
+    .carousel-control-prev{
+        margin-top: 45%;
+        margin-left: 30%;
+    }
+    .carousel-control-next{
+      margin-top: 45%;
+      margin-right: 30%;
+    }
+
+ }
+
+
+
+
+ .third{
+  position: relative;
+  width: 100%;
+  height: 250px;
+  margin-top: 300px;
+  background-color: rgb(3, 65, 80);
+}
+.thirdparagraph{
+  position: relative;
+  text-align: center;
+  line-height:20%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0 auto;
+  padding: 50px;
+  color: white;
+  
+}
+
+.contact{
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+ margin-top: 90px;
+ color: rgb(121, 161, 10);
+}
+.student{
+  max-width: 300px;
+  width: 40%;
+  margin-top: 90px;
+  position: relative;
+  margin-left: 10%;
+  border-radius: 100%
+}
+.textc{
+  max-width: 100px;
+  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 17%;
+  color: #ffffff;
+}
+
+
+.teacher{
+  max-width: 300px;
+  width: 40%;
+  margin-top: 90px;
+  position: relative;
+  float: right;
+  right: 10%;
+  border-radius: 100%
+}
+.textc2{
+  max-width: 100px;
+  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  float: right;
+  right: 17%;
+  top: -110px;
+  color: #ffffff;
+}
+.link{
+    position: relative;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+.icon2{
+  position: relative;
+  color: white;
+}
+.downloadbutton2{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 2%;
+}
+.downloadbutton2 :hover{
+  color: rgb(7, 61, 160);
+}
+
+
+
+
+
+
+.footer{
+    height: 150px;
+    background: #292c2f;
+}
+
+.footer-links{
+  width: 350px;
+  position: relative;
+margin: auto;    
+  font-size:18px;
+  font-weight: bold;
+  color:  #ffffff;
+}
+p.footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color:  inherit;
+  }
+  p.footer-links a:hover{
+      color: #FFCC00;
+      }
+
+
+.copyr{
+    width: 200px;
+    position: relative;
+    margin:auto;
+    margin-top: 40px;
+    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 555px) {
+  .footer-links{
+      width: 180px;
+  }
+  .copyr{
+      width: 200px;
+      position: relative;
+      margin:auto;
+      color: white;
+      text-align: center;
+  }
+  .downloadbutton2{
+      position: absolute;
+      margin-top: 60px;
+      margin-left: 7%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer{
+    height: 200px;
+    background: #292c2f;
+}
+  .footer-links{
+    width: 100px;
+}
+.copyr{
+    width: 200px;
+    position: relative;
+    margin:auto;
+    color: white;
+    text-align: center;
+}
+.downloadbutton2{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 7%;
+}
+}
+
+
+
+
+
+
+
